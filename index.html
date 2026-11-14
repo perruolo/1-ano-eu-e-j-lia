@@ -78,7 +78,8 @@ img,video{max-width:100%;display:block}
   min-height:52svh;display:flex;align-items:center;justify-content:center;text-align:center;margin:0;
   font-family:var(--display);font-weight:500;font-size:clamp(30px, 8.4vw, 50px);line-height:1.18;color:var(--ink);text-wrap:balance;
 }
-.msg p em{color:var(--wine)}
+.msg p .frase-msg{display:block;max-width:100%}
+.msg p em{color:var(--wine);display:inline}
 .msg p.small{font-size:clamp(25px, 6.8vw, 40px)}
 
 /* ---------- mural ---------- */
@@ -216,11 +217,11 @@ img,video{max-width:100%;display:block}
   </section>
 
   <section class="msg wrap" id="carta" aria-label="Mensagem">
-    <p class="rv">Feliz aniversário de 1 ano de namoro, <em>minha princesa</em>.</p>
-    <p class="rv">Eu te amo muito.<br>Você é <em>a minha pessoa</em>.</p>
-    <p class="rv small">Obrigado por todos os momentos que a gente já viveu, e por todos que estamos vivendo juntos.</p>
-    <p class="rv small">Nossa parceria é incrível. Que o nosso relacionamento continue assim: saudável, leve e feliz.</p>
-    <p class="rv">Esse é só <em>o primeiro ano</em> de muitos.</p>
+    <p class="rv"><span class="frase-msg">Feliz aniversário de 1 ano de namoro, <em>minha princesa</em>.</span></p>
+    <p class="rv"><span class="frase-msg">Eu te amo muito.<br>Você é <em>a minha pessoa</em>.</span></p>
+    <p class="rv small"><span class="frase-msg">Obrigado por todos os momentos que a gente já viveu, e por todos que estamos vivendo juntos.</span></p>
+    <p class="rv small"><span class="frase-msg">Nossa parceria é incrível. Que o nosso relacionamento continue assim: saudável, leve e feliz.</span></p>
+    <p class="rv"><span class="frase-msg">Esse é só <em>o primeiro ano</em> de muitos.</span></p>
   </section>
 
   <section class="mural wrap" aria-label="Mural de fotos">
